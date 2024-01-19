@@ -1,6 +1,6 @@
 import http from 'k6/http';
 import { sleep, check } from "k6";
-import { returnError } from "../modules/common.js";
+import { returnError } from "./errorHandler.js";
 
 const loginUrl = "/auth/basic/login/";
 
