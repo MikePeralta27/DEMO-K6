@@ -36,3 +36,6 @@ The Test Summary Report will be generated at the end of every run and saved in t
 ## Project Naming Conventions 
 
 - Use `camelCase` for variable
+- Use prefix like `is`, `are`, or `has` for bool variables.
+- Use self explanatory names for variables.
+- Start functions with a verb and the entity being affect by it.
